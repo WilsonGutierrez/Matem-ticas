@@ -21,7 +21,17 @@ namespace Matemáticas
         private void btnMedia_Aritmetica_Click(object sender, EventArgs e)
         {
             //Split => Divide una cadena en base a un delimitador (patrón) y devuelve una  matriz
-            lblRespuesta_Serie.Text = "X=" + objEstadistica.media(txtSerie.Text.Split(','));
+            lblRespuesta.Text = "X= " + objEstadistica.media(txtSerie.Text.Split(','));
+        }
+
+        private void btnEstandar_Click(object sender, EventArgs e)
+        {
+            lblRespuesta.Text = "Tipica= " + objEstadistica.estandar(txtSerie.Text.Split(','));
+        }
+
+        private void btnTipica_Click(object sender, EventArgs e)
+        {
+            lblRespuesta.Text = "X=" + objEstadistica.tipica(txtSerie.Text.Split(','));
         }
     }
 }
