@@ -69,6 +69,7 @@
             this.btnMedia_Aritmetica.TabIndex = 3;
             this.btnMedia_Aritmetica.Text = "Cakcular X";
             this.btnMedia_Aritmetica.UseVisualStyleBackColor = true;
+            this.btnMedia_Aritmetica.Click += new System.EventHandler(this.btnMedia_Aritmetica_Click);
             // 
             // Form1
             // 
