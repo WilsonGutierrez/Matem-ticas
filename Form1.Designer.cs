@@ -97,7 +97,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(295, 238);
+            this.ClientSize = new System.Drawing.Size(308, 272);
             this.Controls.Add(this.btnTipica);
             this.Controls.Add(this.btnEstandar);
             this.Controls.Add(this.btnMedia_Aritmetica);
